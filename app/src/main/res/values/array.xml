@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="escolaridadItems">
+        <item>Bachillerato</item>
+        <item>Tecnico</item>
+        <item>Escolarizado</item>
+        <item>Licenciatura</item>
+        <item>Maestria</item>
+        <item>Doctorado</item>
+    </string-array>
+    <string-array name="bookItems">
+        <item>Demian</item>
+        <item>Pedro Paramo</item>
+        <item>Cien años de Soledad</item>
+        <item>El ruido y la Furia</item>
+        <item>Ensayo sobre la ceguera</item>
+        <item>La Montaña Mágica</item>
+        <item>La Divina Comedia</item>
+        <item>Fausto</item>
+        <item>El Señor de los Anillos</item>
+        <item>Guerra y Paz</item>
+    </string-array>
+</resources>

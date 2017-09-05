@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.damiangarcia.tarea1.ActivityMain"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <EditText
+                android:id="@+id/ActivityMain_Nombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:hint="@string/ActivityMain_HintNombre"
+                />
+            <EditText
+                android:id="@+id/ActivityMain_Telefono"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLines="1"
+                android:inputType="phone"
+                android:hint="@string/ActivityMain_HintTelefono"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ActivityMain_LabelEscolaridad"
+                android:textColor="@android:color/black"/>
+            <Spinner
+                android:id="@+id/ActivityMain_Escolaridad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/escolaridadItems"
+                >
+            </Spinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ActivityMain_LabelGenero"
+                android:textColor="@android:color/black"
+
+                />
+            <RadioGroup
+                android:id="@+id/ActivityMain_Radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/ActivityMain_Femenino"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/ActivityMain_Femenino"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/ActivityMain_Masculino"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:text="@string/ActivityMain_Masculino"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ActivityMain_LabelLibro"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/ActivityMain_Libro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <CheckBox
+                android:id="@+id/ActivityMain_Deporte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:button="?android:attr/textCheckMark"
+                android:text="@string/ActivityMain_LabelDeporte"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="5dp"
+        >
+        <Button
+            android:id="@+id/ActivityMain_Limpiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ActivityMain_BotonLimpiar"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

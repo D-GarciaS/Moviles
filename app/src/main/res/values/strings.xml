@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tarea1</string>
+    <string name="ActivityMain_HintNombre">Ingresa tu Nombre</string>
+    <string name="ActivityMain_HintTelefono">Ingresa tu Teléfono</string>
+    <string name="ActivityMain_LabelEscolaridad">Escolaridad</string>
+    <string name="ActivityMain_LabelGenero">Género</string>
+    <string name="ActivityMain_Femenino">Femenino</string>
+    <string name="ActivityMain_Masculino">Masculino</string>
+    <string name="ActivityMain_LabelLibro">Libro Favorito</string>
+    <string name="ActivityMain_LabelDeporte">Practica Deporte</string>
+    <string name="ActivityMain_BotonLimpiar">Limpiar</string>
+</resources>
